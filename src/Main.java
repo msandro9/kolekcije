@@ -18,9 +18,11 @@ public class Main {
                 case 1:
                     evidencija.unesiPolaznika(scanner);
                     break;
+
                 case 2:
                     evidencija.ispisiPolaznike();
                     break;
+
                 case 3:
                     System.out.println("Unesi email:");
                     Polaznik polaznik = evidencija.pretraziPolaznikePoEmailu(scanner.nextLine());
@@ -31,10 +33,13 @@ public class Main {
                     } else {
                         System.out.println("Polaznik nije pronaden");
                     }
-
                     break;
+
                 case 4:
                     return;
+
+                default:
+                    System.out.println("Pogresan unos");
             }
 
             System.out.println("--------------------------");
