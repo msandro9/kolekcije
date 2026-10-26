@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        EvidencijaPolaznika evidencija = new EvidencijaPolaznika();
+        EvidencijaPolaznikaHashSet evidencija = new EvidencijaPolaznikaHashSet();
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
